@@ -8,7 +8,7 @@ public class EnableUI : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-		if(!this.GetComponent<Canvas>().isActiveAndEnabled)
+		if(this.GetComponent<Canvas>().isActiveAndEnabled)
         {
             notDetectedUI.SetActive(false);
         }
